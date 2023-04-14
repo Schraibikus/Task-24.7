@@ -1,11 +1,14 @@
 
 package org.example;
 public class University {
-    String id = "IDNGMU";
-    String fullName = "Нский Государственный Медицинский Университет";
-    String shortName = "НГМУ";
-    int yearOfFoundation = 2000;
-    StudyProfile mainProfile;
+    private String id;
+    private String fullName;
+    private String shortName;
+    private int yearOfFoundation;
+    private StudyProfile mainProfile;
+    public University(){
+
+    }
 
     public String getId() {
         return id;
@@ -49,12 +52,11 @@ public class University {
 
     @Override
     public String toString() {
-        return "University{" +
-                "id='" + id + '\'' +
-                ", fullName='" + fullName + '\'' +
-                ", shortName='" + shortName + '\'' +
-                ", yearOfFoundation=" + yearOfFoundation +
-                ", mainProfile=" + mainProfile +
-                '}';
+        return String.format("id = %s, fullName = %s, shortName = %s, yearOfFoundation = %s, mainProfile = %s",
+                this.id,
+                this.fullName,
+                this.shortName,
+                this.yearOfFoundation,
+                this.mainProfile.getProfileName());
     }
 }

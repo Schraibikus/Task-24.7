@@ -1,10 +1,13 @@
 package org.example;
 
 public class Student {
-    String fullName = "Иван Иванов";
-    String universityId = "IDNGMU";
-    int currentCourseNumber = 1;
-    float avgExamScore = 2;
+    private String fullName;
+    private String universityId;
+    private int currentCourseNumber;
+    private float avgExamScore;
+    public Student(){
+
+    }
     public String getFullName() {
         return fullName;
     }
@@ -39,11 +42,10 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "fullName='" + fullName + '\'' +
-                ", universityId='" + universityId + '\'' +
-                ", currentCourseNumber=" + currentCourseNumber +
-                ", avgExamScore=" + avgExamScore +
-                '}';
+        return String.format("fullName = %s, universityId = %s, currentCourseNumber = %s, avgExamScore = %s",
+                this.fullName,
+                this.universityId,
+                this.currentCourseNumber,
+                this.avgExamScore);
     }
 }

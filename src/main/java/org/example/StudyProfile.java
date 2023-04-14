@@ -5,6 +5,14 @@ public enum StudyProfile{
     CHEMISTRY("Химия"),
     BIOLOGY("Биология");
 
-    StudyProfile(String profileName){
+    private final String profileName;
+
+    private StudyProfile (String profileName){
+        this.profileName = profileName;
     }
+    public String getProfileName(){
+        return this.profileName;
+    }
+
+
 }
