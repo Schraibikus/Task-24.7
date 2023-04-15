@@ -1,16 +1,21 @@
 
 package org.example;
-public enum StudyProfile{
+
+public enum StudyProfile {
+    PHYSICS("Физика"),
+    COMPUTER_SCIENCE("Информатика"),
+    MATHEMATICS("Математика"),
+    JURISPRUDENCE("Юриспруденция"),
     MEDICINE("Медицина"),
-    CHEMISTRY("Химия"),
-    BIOLOGY("Биология");
+    LINGUISTICS("Лингвистика");
 
     private final String profileName;
 
-    private StudyProfile (String profileName){
+    private StudyProfile(String profileName) {
         this.profileName = profileName;
     }
-    public String getProfileName(){
+
+    public String getProfileName() {
         return this.profileName;
     }
 
