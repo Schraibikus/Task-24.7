@@ -1,19 +1,66 @@
 package org.example;
 
-import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
-public class FileReader {
+public class XlsFileReader {
+
+    public static List<University> readXlsUniversities(String filePath) throws IOException {
+
+        List<University> universities = new ArrayList<>();
+
+        FileInputStream inputStream = new FileInputStream(filePath);
+        XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
+        XSSFSheet sheet = workbook.getSheet("Университеты");
+
+        Iterator<Row> rows = sheet.iterator();
+        rows.next();
+
+        while (rows.hasNext()) {
+            Row currentRow = rows.next();
+            University university = new University();
+            universities.add(university);
+            university.setId(currentRow.getCell(0).getStringCellValue());
+            university.setFullName(currentRow.getCell(1).getStringCellValue());
+            university.setShortName(currentRow.getCell(2).getStringCellValue());
+            university.setYearOfFoundation((int) currentRow.getCell(3).getNumericCellValue());
+            university.setMainProfile(StudyProfile.valueOf(StudyProfile.class, currentRow.getCell(4).getStringCellValue()));
+        }
+        return universities;
+    }
+
+    public static List<Student> readXlsStudents(String filePath) throws IOException {
+
+        List<Student> students = new ArrayList<>();
+
+        FileInputStream inputStream = new FileInputStream(filePath);
+        XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
+        XSSFSheet sheet = workbook.getSheet("Студентики");
+
+        Iterator<Row> rows = sheet.iterator();
+        rows.next();
+
+        while (rows.hasNext()) {
+            Row currentRow = rows.next();
+            Student student = new Student();
+            students.add(student);
+            student.setFullName(currentRow.getCell(0).getStringCellValue());
+            student.setUniversityId(currentRow.getCell(1).getStringCellValue());
+            student.setCurrentCourseNumber((int) currentRow.getCell(2).getNumericCellValue());
+            student.setAvgExamScore((float) currentRow.getCell(3).getNumericCellValue());
+        }
+        return students;
+    }
 
 
-    public void studentFileReader() throws IOException {
+    /*public void studentFileReader() {
         try {
             FileInputStream file = new FileInputStream(new File("C:\\Users\\kurt-\\module_gradle\\Practic24.7\\src\\main\\resources\\universityInfo.xlsx"));
             XSSFWorkbook workbook = new XSSFWorkbook(file);
@@ -61,7 +108,7 @@ public class FileReader {
         } catch (Exception e) {
             System.out.println("Что-то пошло не так с университетами");
         }
-    }
+    }*/
 }
 
 
