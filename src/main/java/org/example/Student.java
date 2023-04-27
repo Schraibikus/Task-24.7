@@ -1,13 +1,19 @@
 package org.example;
 
+import org.apache.commons.lang3.StringUtils;
+import org.example.Comparator.StudentComparator;
+
+
 public class Student {
     private String fullName;
     private String universityId;
     private int currentCourseNumber;
     private float avgExamScore;
-    public Student(){
+
+    public Student() {
 
     }
+
     public String getFullName() {
         return fullName;
     }
@@ -48,4 +54,5 @@ public class Student {
                 this.currentCourseNumber,
                 this.avgExamScore);
     }
+
 }
