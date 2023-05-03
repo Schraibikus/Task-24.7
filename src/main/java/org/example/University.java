@@ -1,15 +1,20 @@
 
 package org.example;
 
-import org.apache.commons.lang3.StringUtils;
-import org.example.Comparator.UniversityComparator;
+import com.google.gson.annotations.SerializedName;
+import org.example.Enums.StudyProfile;
 
 
 public class University {
+    @SerializedName("universityId")
     private String id;
+    @SerializedName("universityName")
     private String fullName;
+    @SerializedName("universityShortName")
     private String shortName;
+    @SerializedName("foundation")
     private int yearOfFoundation;
+    @SerializedName("profile")
     private StudyProfile mainProfile;
 
     public University() {

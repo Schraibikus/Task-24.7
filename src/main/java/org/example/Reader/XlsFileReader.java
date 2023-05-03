@@ -1,8 +1,11 @@
-package org.example;
+package org.example.Reader;
 
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.example.Student;
+import org.example.Enums.StudyProfile;
+import org.example.University;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -51,8 +54,8 @@ public class XlsFileReader {
             Row currentRow = rows.next();
             Student student = new Student();
             students.add(student);
-            student.setFullName(currentRow.getCell(0).getStringCellValue());
-            student.setUniversityId(currentRow.getCell(1).getStringCellValue());
+            student.setFullName(currentRow.getCell(1).getStringCellValue());
+            student.setUniversityId(currentRow.getCell(0).getStringCellValue());
             student.setCurrentCourseNumber((int) currentRow.getCell(2).getNumericCellValue());
             student.setAvgExamScore((float) currentRow.getCell(3).getNumericCellValue());
         }
