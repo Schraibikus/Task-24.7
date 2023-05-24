@@ -1,11 +1,11 @@
-package org.example.Json;
+package org.example.Util;
 
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import org.example.Student;
-import org.example.University;
+import org.example.Model.Student;
+import org.example.Model.University;
 
 import java.util.List;
 

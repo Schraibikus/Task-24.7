@@ -1,6 +1,6 @@
 package org.example.Comparator;
 
-import org.example.Student;
+import org.example.Model.Student;
 
 public class StudentCurrentCourseNumberComparator implements StudentComparator{
     @Override

@@ -3,9 +3,9 @@ package org.example.Reader;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.example.Student;
+import org.example.Model.Student;
 import org.example.Enums.StudyProfile;
-import org.example.University;
+import org.example.Model.University;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,5 +1,5 @@
 
-package org.example;
+package org.example.Model;
 
 import com.google.gson.annotations.SerializedName;
 import org.example.Enums.StudyProfile;

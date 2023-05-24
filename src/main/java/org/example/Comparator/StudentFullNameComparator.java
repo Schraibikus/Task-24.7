@@ -1,7 +1,7 @@
 package org.example.Comparator;
 
 import org.apache.commons.lang3.StringUtils;
-import org.example.Student;
+import org.example.Model.Student;
 
 public class StudentFullNameComparator implements StudentComparator{
 

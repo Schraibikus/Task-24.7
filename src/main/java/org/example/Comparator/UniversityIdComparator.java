@@ -1,7 +1,7 @@
 package org.example.Comparator;
 
 import org.apache.commons.lang3.StringUtils;
-import org.example.University;
+import org.example.Model.University;
 
 public class UniversityIdComparator implements UniversityComparator {
     @Override

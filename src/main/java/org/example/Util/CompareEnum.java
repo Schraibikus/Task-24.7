@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Util;
 
 import org.example.Comparator.*;
 import org.example.Enums.StudentEnum;
