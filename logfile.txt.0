@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-28T11:44:52.846097800Z</date>
+  <millis>1685274292846</millis>
+  <nanos>97800</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-05-28T11:44:52.923050300Z</date>
+  <millis>1685274292923</millis>
+  <nanos>50300</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.ReaderWriter.XlsFileReader</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsFileReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-05-28T11:44:53.635610700Z</date>
+  <millis>1685274293635</millis>
+  <nanos>610700</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.ReaderWriter.XlsFileReader</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsFileReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-05-28T11:44:53.656598400Z</date>
+  <millis>1685274293656</millis>
+  <nanos>598400</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.ReaderWriter.XlsFileReader</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsFileReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-05-28T11:44:53.708566200Z</date>
+  <millis>1685274293708</millis>
+  <nanos>566200</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.ReaderWriter.XlsFileReader</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsFileReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-05-28T11:44:53.737548400Z</date>
+  <millis>1685274293737</millis>
+  <nanos>548400</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.ReaderWriter.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-05-28T11:44:53.906444100Z</date>
+  <millis>1685274293906</millis>
+  <nanos>444100</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.ReaderWriter.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-05-28T11:44:53.907443400Z</date>
+  <millis>1685274293907</millis>
+  <nanos>443400</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-30T09:04:27.225216400Z</date>
+  <millis>1685437467225</millis>
+  <nanos>216400</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:27.322156Z</date>
+  <millis>1685437467322</millis>
+  <nanos>156000</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.ReaderWriter.XlsFileReader</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsFileReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.284563200Z</date>
+  <millis>1685437468284</millis>
+  <nanos>563200</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.ReaderWriter.XlsFileReader</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsFileReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.305549800Z</date>
+  <millis>1685437468305</millis>
+  <nanos>549800</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.ReaderWriter.XlsFileReader</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsFileReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.359516700Z</date>
+  <millis>1685437468359</millis>
+  <nanos>516700</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.ReaderWriter.XlsFileReader</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsFileReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.379504500Z</date>
+  <millis>1685437468379</millis>
+  <nanos>504500</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Util.StatisticUtil</logger>
+  <level>INFO</level>
+  <class>org.example.Util.StatisticUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.395494800Z</date>
+  <millis>1685437468395</millis>
+  <nanos>494800</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Util.StatisticUtil</logger>
+  <level>INFO</level>
+  <class>org.example.Util.StatisticUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.405488700Z</date>
+  <millis>1685437468405</millis>
+  <nanos>488700</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.ReaderWriter.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.581380100Z</date>
+  <millis>1685437468581</millis>
+  <nanos>380100</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.ReaderWriter.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.599368700Z</date>
+  <millis>1685437468599</millis>
+  <nanos>368700</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.ReaderWriter.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.607365Z</date>
+  <millis>1685437468607</millis>
+  <nanos>365000</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.ReaderWriter.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>org.example.ReaderWriter.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>org.example.ReaderWriter.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>org.example.Main</class>
+      <method>main</method>
+      <line>82</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.618357700Z</date>
+  <millis>1685437468618</millis>
+  <nanos>357700</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.ReaderWriter.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.619357100Z</date>
+  <millis>1685437468619</millis>
+  <nanos>357100</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.ReaderWriter.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>Directory created successfully</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.734285700Z</date>
+  <millis>1685437468734</millis>
+  <nanos>285700</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.ReaderWriter.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.ReaderWriter.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-05-30T09:04:28.734285700Z</date>
+  <millis>1685437468734</millis>
+  <nanos>285700</nanos>
+  <sequence>14</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>

@@ -12,13 +12,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.OptionalDouble;
 import java.util.Set;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 public class StatisticUtil {
-    private StatisticUtil(){
 
+    private static final Logger logger = Logger.getLogger(StatisticUtil.class.getName());
+
+    private StatisticUtil() {
     }
-    public static List<Statistics> createStatistics(List<Student> students, List<University> universities){
+
+    public static List<Statistics> createStatistics(List<Student> students, List<University> universities) {
+
+        logger.log(Level.INFO, "Statistics module started");
+
         List<Statistics> statisticsList = new ArrayList<>();
 
         Set<StudyProfile> profiles = universities.stream()
@@ -53,6 +61,7 @@ public class StatisticUtil {
             avgExamScore.ifPresent(value -> statistics.setAverageScore(
                     (float) BigDecimal.valueOf(value).setScale(2, RoundingMode.HALF_UP).doubleValue()));
         });
+        logger.log(Level.INFO, String.format("Statistics module finished with %s statistical objects", statisticsList.size()));
         return statisticsList;
     }
 }

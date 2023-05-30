@@ -1,4 +1,4 @@
-package org.example.Reader;
+package org.example.ReaderWriter;
 
 
 import org.apache.poi.ss.usermodel.Cell;
@@ -19,7 +19,6 @@ public class XlsWriter {
     private static final Logger logger = Logger.getLogger(XlsWriter.class.getName());
 
     private XlsWriter() {
-
     }
 
     public static void writeXlsStatistics(List<Statistics> statisticsList, String filePath) {
